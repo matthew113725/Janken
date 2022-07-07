@@ -42,6 +42,7 @@ elsif (my_hand == 0 && rival_hand == 1) || (my_hand == 1 && rival_hand == 2) || 
     
   else
     puts "ハズレ！";
+    return true
     
   end
     
@@ -64,6 +65,7 @@ elsif (my_hand == 0 && rival_hand == 2) || (my_hand == 1 && rival_hand == 0) || 
     
   else
     puts "セーフ！";
+    return true
     
   end
   
